@@ -13,7 +13,7 @@ class TCPServer:
         """initialize server with host and port"""
         self.host = host
         self.port = port
-        self.server_name = "Server of Nilan Bryce and Noah"  # change to your name
+        self.server_name = "Server of Nilan + Bryce "  # change to your name
         self.server_number = random.randint(1, 100)  # server picks random number
         self.running = True
         

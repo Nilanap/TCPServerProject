@@ -12,7 +12,7 @@ class TCPClient:
         """initialize client with server address"""
         self.host = host
         self.port = port
-        self.client_name = "Client of Nilan Noah and Bryce"  # change to your name
+        self.client_name = "Client of Nilan and Bryce"  # change to your name
         
     def connect_and_send(self, number):
         """connect to server and send message"""
