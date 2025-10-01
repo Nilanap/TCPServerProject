@@ -2,7 +2,7 @@
 TCP Socket Programming Assignment
 Group Members
 
-Nilan Patel, Bryce Wellman, Noah Nielsen
+Nilan Patel, Bryce Wellman
 
 Programming Language & Libraries:
 Language: Python 3

@@ -1,7 +1,7 @@
-#!/usr/bin/env python3
+
 """
-TCP Server Implementation
-Author: [Your Name Here]
+TCP server project
+Nilan and Bryce
 """
 
 import socket
@@ -18,7 +18,7 @@ class TCPServer:
         self.running = True
         
     def handle_client(self, client_socket, address):
-        """handle client connection in separate thread"""
+        #handle client connection in separate thread
         try:
             # receive msg from client
             data = client_socket.recv(1024).decode('utf-8')
@@ -114,9 +114,9 @@ class TCPServer:
 
 def main():
     """main function to run server"""
-    # server configuration
-    HOST = '127.0.0.1'  # localhost
-    PORT = 5555  # use port > 5000
+    # server configs
+    HOST = '127.0.0.1'  
+    PORT = 5555  
     
     server = TCPServer(HOST, PORT)
     server.start()

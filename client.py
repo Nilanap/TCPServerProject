@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
 """
-TCP Client Implementation
-Author: [Your Name Here]
+TCP Client part
+Nilan and Bryce
 """
 
 import socket
@@ -79,17 +78,16 @@ def get_user_input():
 
 def main():
     """main function to run client"""
-    # server configuration - must match server
-    HOST = '127.0.0.1'  # server ip address
-    PORT = 5555  # server port
+    # server configs
+    HOST = '127.0.0.1'  
+    PORT = 5555 
     
     print("TCP CLIENT PROGRAM")
     print("="*50)
     
-    # get user input
+
     number = get_user_input()
     
-    # create client and send message
     client = TCPClient(HOST, PORT)
     client.connect_and_send(number)
 
